@@ -19,7 +19,7 @@ jobs:
       - name: Setup Pulsar Editor
         uses: pulsar-edit/action-pulsar-dependency@v3.3
       - name: Install dependencies (Windows)
-        if: ${{ runner.os === 'Windows' }}
+        if: ${{ runner.os == 'Windows' }}
         run: ppm install --verbose
       - name: Install Dependencies (*nix)
         if: ${{ runner.os != 'Windows' }}
