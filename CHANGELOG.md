@@ -2,6 +2,15 @@
 - update tern to 0.24.1
 - update npm package dependencies to fix vulnerabilities
 
+## [0.20.1](https://github.com/pulsar-cooperative/pulsar-ternjs/compare/0.20.0...v0.20.1) (2023-11-13)
+
+
+### Bug Fixes
+
+* Comment issue template variables ([550f796](https://github.com/pulsar-cooperative/pulsar-ternjs/commit/550f796d79a43486638823cfe6feefd107fb960f))
+* Ensure `release-please-action` can write PRs ([50c9808](https://github.com/pulsar-cooperative/pulsar-ternjs/commit/50c98085645b507ce3ecdc37ec7ef641ead804a3))
+* Update issue comment template ([5218fa7](https://github.com/pulsar-cooperative/pulsar-ternjs/commit/5218fa7eec350383d5e25f56fdd554ec2267d4e4))
+
 ## [0.19.1]
 - only query type for the last cursor. this may prevent crashes if the user moves multiply cursors with inline fn completion turned on. fixes #309
 
