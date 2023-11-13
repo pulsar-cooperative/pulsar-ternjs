@@ -18,7 +18,7 @@ jobs:
         with:
           template: .github/issue-comment-template.md
           vars: |
-            user: ${{ github.event.issue.user.name }}
+            user: ${{ github.event.issue.user.login }}
             userLink: ${{ github.event.issue.user.html_url }}
             repo: ${{ github.repository }}
 
