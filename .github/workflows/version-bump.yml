@@ -20,4 +20,4 @@ jobs:
       with:
         release-type: node
         package-name: ${{ vars.REPO_NAME }}
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.REPO_TOKEN }}
