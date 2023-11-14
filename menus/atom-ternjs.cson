@@ -2,16 +2,16 @@
 'context-menu':
   'atom-text-editor[data-grammar="source js"]': [
     {
-      label: 'Atom Ternjs'
+      label: 'Pulsar Ternjs'
       submenu: [
-        {label: 'Find definition', command: 'atom-ternjs:definition'},
-        {label: 'Find references', command: 'atom-ternjs:references'},
-        {label: 'Documentation', command: 'atom-ternjs:documentation'},
-        {label: 'Rename', command: 'atom-ternjs:rename'},
-        {label: 'Configure project', command: 'atom-ternjs:openConfig'},
-        {label: 'Restart server', command: 'atom-ternjs:restart'},
-        {label: 'List analyzed files (console)', command: 'atom-ternjs:listFiles'},
-        {label: 'Fetch all files and reanalyze', command: 'atom-ternjs:flush'}
+        {label: 'Find definition', command: 'pulsar-ternjs:definition'},
+        {label: 'Find references', command: 'pulsar-ternjs:references'},
+        {label: 'Documentation', command: 'pulsar-ternjs:documentation'},
+        {label: 'Rename', command: 'pulsar-ternjs:rename'},
+        {label: 'Configure project', command: 'pulsar-ternjs:openConfig'},
+        {label: 'Restart server', command: 'pulsar-ternjs:restart'},
+        {label: 'List analyzed files (console)', command: 'pulsar-ternjs:listFiles'},
+        {label: 'Fetch all files and reanalyze', command: 'pulsar-ternjs:flush'}
       ]
     }
   ]
@@ -20,16 +20,16 @@
     label: 'Packages'
     submenu: [
       {
-        label: 'Atom Ternjs'
+        label: 'Pulsar Ternjs'
         submenu: [
-          {label: 'Configure project', command: 'atom-ternjs:openConfig'},
-          {label: 'Restart server', command: 'atom-ternjs:restart'},
-          {label: 'Find definition', command: 'atom-ternjs:definition'},
-          {label: 'Find references', command: 'atom-ternjs:references'},
-          {label: 'Documentation', command: 'atom-ternjs:documentation'},
-          {label: 'Rename', command: 'atom-ternjs:rename'},
-          {label: 'List analyzed files (console)', command: 'atom-ternjs:listFiles'},
-          {label: 'Fetch all files and reanalyze', command: 'atom-ternjs:flush'}
+          {label: 'Configure project', command: 'pulsar-ternjs:openConfig'},
+          {label: 'Restart server', command: 'pulsar-ternjs:restart'},
+          {label: 'Find definition', command: 'pulsar-ternjs:definition'},
+          {label: 'Find references', command: 'pulsar-ternjs:references'},
+          {label: 'Documentation', command: 'pulsar-ternjs:documentation'},
+          {label: 'Rename', command: 'pulsar-ternjs:rename'},
+          {label: 'List analyzed files (console)', command: 'pulsar-ternjs:listFiles'},
+          {label: 'Fetch all files and reanalyze', command: 'pulsar-ternjs:flush'}
         ]
       }
     ]
