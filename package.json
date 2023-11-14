@@ -1,7 +1,7 @@
 {
   "name": "pulsar-ternjs",
   "main": "./lib/atom-ternjs",
-  "version": "0.20.1",
+  "version": "1.0.0",
   "private": false,
   "description": "JavaScript code intelligence for Pulsar with tern. Adds support for ES5, ES6, ES7, ES8, Node.js and more. Extendable via plugins.",
   "activationHooks": [

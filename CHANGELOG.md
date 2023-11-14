@@ -2,6 +2,17 @@
 - update tern to 0.24.1
 - update npm package dependencies to fix vulnerabilities
 
+## [1.0.0](https://github.com/pulsar-cooperative/pulsar-ternjs/compare/v0.20.1...v1.0.0) (2023-11-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* Rebrand
+
+### Features
+
+* Rebrand ([c0311a5](https://github.com/pulsar-cooperative/pulsar-ternjs/commit/c0311a52852d6d995a19325c07c01725451e9c02))
+
 ## [0.20.1](https://github.com/pulsar-cooperative/pulsar-ternjs/compare/0.20.0...v0.20.1) (2023-11-13)
 
 
